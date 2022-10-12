@@ -40,6 +40,17 @@ var heIsGoing = false;
 console.log(isRining);
 console.log(heIsGoing);
 
+৫ >>> কোনটার মধ্যে কততম বা কততম এর মধ্যে কি আছে বুঝাতে array এর 
+indexof ব্যবহৃত হয় যেমন :
+var fruit = ['apple', 'banana', 'pineapple', 'mango', 'jackfruit'];
+var fruitCount = fruit.indexOf('mango')
+
+var fruitIndex = fruit[4];
+
+console.log(fruitIndex);
+console.log(fruitCount);
+
+
 
 আজকের সেকেন্ড টপিক হচ্ছে-- শর্ত। বা কন্ডিশন। শর্ত সত্য না মিথ্যা সেটা চেক করবে আজকে। সেখানে দেখতে পারবে মোটামুটি ছয়ভাবে শর্ত চেক করা যায়। সেগুলা হচ্ছে-- >, <, ==, !=, <=, >= ব্যস। এইগুলাই। 
 
