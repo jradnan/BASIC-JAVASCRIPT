@@ -1,7 +1,13 @@
-var fruit = ['apple', 'banana', 'pineapple', 'mango', 'jackfruit'];
-var fruitCount = fruit.indexOf('mango')
+// var fruit = ['apple', 'banana', 'pineapple', 'mango', 'jackfruit'];
+// var fruitCount = fruit.indexOf('mango')
 
-var fruitIndex = fruit[4];
+// var fruitIndex = fruit[4];
 
-console.log(fruitIndex);
-console.log(fruitCount);
+// console.log(fruitIndex);
+// console.log(fruitCount);
+
+
+var number = [22, 33, 45, 210, 190, 321, 330];
+
+number[4] = 99;
+console.log(number);
