@@ -1,5 +1,10 @@
-১ >>>  Javascript e parseFloat() string কে nonestring করে দেয়   আর parsInt() কোন সংখ্যার ১.৩ পরের সংখ্যা কে সমান করে দেয় 
+১ >>> পূর্ণ সংখ্যা : parseInt যেমন : 1,2,3
+ভগ্নাংশ অথবা পূর্ণ সংখ্যা নয় যেমন : 1.34, 776.90, 99.99
+
+Javascript e parseFloat() string কে nonestring করে দেয়   আর parsInt() কোন সংখ্যার ১.৩ পরের সংখ্যা কে সমান করে দেয় 
 ১.৩ হলে ১ করে দেয়
+
+
 যেমন : 
 var eggPrice = "3.66";
 var applePrice = "4.99";
