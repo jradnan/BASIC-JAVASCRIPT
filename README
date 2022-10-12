@@ -41,7 +41,7 @@ console.log(isRining);
 console.log(heIsGoing);
 
 ৫ >>> array ব্যবহার করতে [] লিখে ব্যবহার করতে হয় |
-অনেক গুলো উপাদান লিখতে array ব্যবহৃত হয় 
+অনেক গুলো উপাদান (Element) লিখতে array ব্যবহৃত হয় 
 যেমন :
 
 var food = ['apple', 'bananas', 'orange', 'mango',   ];
@@ -54,7 +54,7 @@ indexof ব্যবহৃত হয়
 var fruit = ['apple', 'banana', 'pineapple', 'mango', 'jackfruit'];
 var fruitCount = fruit.indexOf('mango')
 
-কততম এর মধ্যে কি আছে সেটা বুঝতে ওই উপাদান এর সাথে 
+কততম এর মধ্যে কি আছে সেটা বুঝতে ওই উপাদান (Elements) এর সাথে 
 উপাদান[] লিখে ব্যবহার করতে হয় 
 
 যেমন :
