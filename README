@@ -64,7 +64,7 @@ var fruitIndex = fruit[4];
 console.log(fruitIndex);
 
 
-কোনো এর উপাদান এর (Elements) পরিবর্তন করতে হলে 
+কোনো উপাদান (Elements) এর  পরিবর্তন করতে হলে 
 যেমন :
 var number = [22, 33, 45, 210, 190, 321, 330];
 
