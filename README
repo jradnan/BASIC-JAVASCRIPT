@@ -33,6 +33,14 @@ var totalPerson = food % hungryPerson;
 console.log(totalPerson);
 
 
+৪ >>> কোনটা সত্য কোনটা মিথ্যা বুঝাতে Boolean (True/False) 
+যেমন : 
+var isRining = true;
+var heIsGoing = false;
+console.log(isRining);
+console.log(heIsGoing);
+
+
 আজকের সেকেন্ড টপিক হচ্ছে-- শর্ত। বা কন্ডিশন। শর্ত সত্য না মিথ্যা সেটা চেক করবে আজকে। সেখানে দেখতে পারবে মোটামুটি ছয়ভাবে শর্ত চেক করা যায়। সেগুলা হচ্ছে-- >, <, ==, !=, <=, >= ব্যস। এইগুলাই। 
 
 < এইটা দিয়ে চেক করবে বাম পাশে যেটা আছে সেটা ডানপাশেরটা থেকে ছোট কিনা 
