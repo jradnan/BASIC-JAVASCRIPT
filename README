@@ -1,4 +1,11 @@
 ১ >>>  Javascript e parseFloat() string কে nonestring করে দেয়   আর parsInt() কোন সংখ্যার ১.৩ পরের সংখ্যা কে সমান করে দেয় 
 ১.৩ হলে ১ করে দেয়
 
-২ >>> কোনটা কি ধরনের ডাটা টাইপ এইটা বুঝাতে typeof use করতে হয়
+২ >>> কোনটা কি ধরনের ডাটা টাইপ এইটা বুঝাতে typeof use করতে হয় |
+
+৩ >>> মডুলাস মানে ভাগশেষ।  % চিন্হ দিয়ে ভাগশেষ করতে হয়।  
+যেমন : 
+var food = 123;
+var hungryPerson = 10;
+var totalPerson = food % hungryPerson;
+console.log(totalPerson);
