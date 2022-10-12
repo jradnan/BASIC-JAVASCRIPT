@@ -1,7 +1,24 @@
 ১ >>>  Javascript e parseFloat() string কে nonestring করে দেয়   আর parsInt() কোন সংখ্যার ১.৩ পরের সংখ্যা কে সমান করে দেয় 
 ১.৩ হলে ১ করে দেয়
+যেমন : 
+var eggPrice = "3.66";
+var applePrice = "4.99";
+var totall = eggPrice +applePrice;
+
+var egg = parseFloat(eggPrice);
+var apple = parseFloat(applePrice);
+var allPrice = egg +apple;
 
 ২ >>> কোনটা কি ধরনের ডাটা টাইপ এইটা বুঝাতে typeof use করতে হয় |
+যেমন :
+var tShirtPrice = 200;
+var applePrice = '200';
+var isRining = true;
+
+console.log(typeof tShirtPrice);
+console.log(typeof applePrice);
+console.log(typeof isRining);
+
 
 ৩ >>> মডুলাস মানে ভাগশেষ।  % চিন্হ দিয়ে ভাগশেষ করতে হয়।  
 যেমন : 
