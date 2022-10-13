@@ -144,3 +144,18 @@ if(myBudget > birani){
 else{
     console.log('muri khao');
 }
+
+
+৭ >> যদি একই মান বার বার বাড়াতে হয় তখন while loop ব্যবহার করতে হয় 
+যেমন :
+var beton = 0;
+
+while(beton<9){
+    console.log('Sir, please amr ei month er beton den');
+    beton++;
+}
+ 
+
+ এখান এ while loop এর ভিতরে আগে যেই variable (var beton = 0) 
+ ডিক্লেয়ার করা হয়েছে তার মান বাড়ানোর জন্য while loop এর ভিতরে 
+ আবার ডিক্লেয়ার করে তার মানে এক এক করে বাড়ানো হয়েছে (beton++)
