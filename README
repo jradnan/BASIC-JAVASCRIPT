@@ -180,3 +180,18 @@ while loop এ আগে variable ডিক্লেয়ার করতে হ�
 for(var beton =0; beton < 9; beton++){
     console.log('bhai please amr beton diye den');
 }
+
+
+৮ >> কোনো একটা function এর ভিতর ওই function
+কে যদি কল করা হয় তাহলে তাকে recursion বলে 
+যেমন :
+
+function consoleNumber(i){
+    
+    if(i > 5){
+        return;
+    }
+    console.log(i);
+    consoleNumber(i+1);
+}
+consoleNumber(1);
