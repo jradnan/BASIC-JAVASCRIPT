@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is Event</h1>
+    <button onclick="document.body.style.backgroundColor='blue'">Click Me Blue</button>
+    <button onclick="document.body.style.backgroundColor='red'">Click Me Red</button>
+    <button onclick="document.body.style.backgroundColor='purple'">Click Me Purple</button>
+    <button onclick="document.body.style.backgroundColor='black'">Click Me Blackkkkk!!!</button>
+    <button onclick="makesky()">Click Me Javascript</button>
+    <button id="makegreen">Click Me Green</button>
+    
+    
+    <script src="/addEvent.js"></script>
+<script>
+    const makeGreenId = document.getElementById("makegreen");
+    makeGreenId.onclick = readygreen;
+
+    function readygreen(){
+        document.body.style.backgroundColor = "green";
+    }
+</script>
+
+</body>
+
+</html>

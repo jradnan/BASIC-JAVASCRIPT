@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is blog website</h1>
+    <main style="display: flex; justify-content: center; " >
+        <article>
+            <h5 id="author">author</h5>
+            <p class="author1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam maxime porro dolorum dolore praesentium, fuga, quas ipsa qui distinctio obcaecati dolor doloribus. Voluptatum consequatur error sunt officiis quaerat ipsum? Nemo?</p>
+        </article>
+        <article>
+            <h5 id="author-2">author</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam maxime porro dolorum dolore praesentium, fuga, quas ipsa qui distinctio obcaecati dolor doloribus. Voluptatum consequatur error sunt officiis quaerat ipsum? Nemo?</p>
+        </article>
+        <article>
+            <h5>author</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam maxime porro dolorum dolore praesentium, fuga, quas ipsa qui distinctio obcaecati dolor doloribus. Voluptatum consequatur error sunt officiis quaerat ipsum? Nemo?</p>
+        </article>
+    </main>
+    <main style="display: flex; justify-content: center; " >
+        <article>
+            <h5>author</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam maxime porro dolorum dolore praesentium, fuga, quas ipsa qui distinctio obcaecati dolor doloribus. Voluptatum consequatur error sunt officiis quaerat ipsum? Nemo?</p>
+        </article>
+        <article>
+            <h5>author</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam maxime porro dolorum dolore praesentium, fuga, quas ipsa qui distinctio obcaecati dolor doloribus. Voluptatum consequatur error sunt officiis quaerat ipsum? Nemo?</p>
+        </article>
+        <article>
+            <h5 id="author-4">author</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam maxime porro dolorum dolore praesentium, fuga, quas ipsa qui distinctio obcaecati dolor doloribus. Voluptatum consequatur error sunt officiis quaerat ipsum? Nemo?</p>
+        </article>
+    </main>
+    <script>
+        document.getElementById("author").style.color = "red"
+        document.getElementById("author-2").style.color = "green"
+        const author = document.getElementById("author-4");
+
+        author.innerHTML = "Author Updated"
+        author.style.backgroundColor = "skyBlue"
+        author.style.textAlign = "center"
+        author.style.padding = "10px";
+
+        const author2 = document.getElementsByClassName("author1");
+
+       for (const authori of author2){
+            authori.style.color ="red"
+       }
+        
+    </script>
+</body>
+</html>
