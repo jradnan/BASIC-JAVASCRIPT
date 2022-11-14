@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>this is bubble event</h2>
+    <section id="section">
+        <ul>
+            <li id="f-li">Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+            <li id="2nd-li">Tenetur voluptate voluptatem quidem consequuntur aliquam esse.</li>
+            <li id="3rd-li">Asperiores distinctio ea ab. Cum, quisquam tempora.</li>
+            <li id="4th-li"> Maiores quisquam quia nesciunt. Quibusdam, animi corrupti!</li>
+        </ul>
+    </section>
+    <script>
+        document.getElementById("f-li").addEventListener('click', function(){
+            console.log('first li clicked');
+        })
+        document.getElementById("section").addEventListener('click', function(event){
+            console.log('section clicked');
+            
+        })
+        // stopPropagation;
+        document.getElementById("2nd-li").addEventListener('click', function(){
+            console.log('2nd li clicked');
+            event.stopPropagation();
+        })
+        document.getElementById("3rd-li").addEventListener('click', function(){
+            console.log('3rd li clicked');
+        })
+        document.getElementById("4th-li").addEventListener('click', function(){
+            console.log('4th li clicked');
+        })
+    </script>
+</body>
+</html>
