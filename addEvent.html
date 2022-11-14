@@ -16,6 +16,9 @@
     <button onclick="document.body.style.backgroundColor='black'">Click Me Blackkkkk!!!</button>
     <button onclick="makesky()">Click Me Javascript</button>
     <button id="makegreen">Click Me Green</button>
+    <button id="golden">Click Me Golden</button>
+    <button id="makeyellow">Click Me Yellow</button>
+    <button id="makemistyrose">Click Me Mistyrose</button>
     
     
     <script src="/addEvent.js"></script>
@@ -26,6 +29,22 @@
     function readygreen(){
         document.body.style.backgroundColor = "green";
     }
+
+    const goldenRod = document.getElementById('golden');
+    goldenRod.addEventListener('click', makeGolden);
+
+    function makeGolden(){
+        document.body.style.backgroundColor = "goldenrod";
+    }
+
+    const yellow = document.getElementById("makeyellow");
+    yellow.addEventListener("click", function makeYellow(){
+        document.body.style.backgroundColor = "yellow"
+    })
+
+    document.getElementById("makemistyrose").addEventListener("click", function(){
+        document.body.style.backgroundColor = "mistyrose";
+    })
 </script>
 
 </body>

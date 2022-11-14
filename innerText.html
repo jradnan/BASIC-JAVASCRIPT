@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="color: red;">This is handleevent</h1>
+    <p id="p-text"></p>
+    <button onclick="handleClick()">Click</button>
+    <p id="inner-p"></p>
+    <button id="btn-add">Inner Text</button>
+    <script>
+        function handleClick() {
+            const p = document.getElementById('p-text');
+            p.innerText = "using javascript more easier any other language"
+        }
+        document.getElementById("btn-add").addEventListener('click', function(){
+            const p = document.getElementById('inner-p');
+            p.innerText = 'javascript is javascript'
+        })
+    </script>
+</body>
+
+</html>
