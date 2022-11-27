@@ -8,7 +8,7 @@ function (){
     const previousDepositAmount = depositTotal.innerText;
     const newDepositTotal = parseFloat(previousDepositAmount) + parseFloat( NewdepositAmount) 
     depositeInput.value = "";
-   otal.innerText = "";
+   
 
     
 
