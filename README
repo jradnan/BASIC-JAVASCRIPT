@@ -195,3 +195,13 @@ function consoleNumber(i){
     consoleNumber(i+1);
 }
 consoleNumber(1);
+
+*****************MOST IMPORTANT MODULE********************
+
+Module 28
+Shopping cart and pin matcher
+
+
+Module 29
+how to search a product in array 
+
