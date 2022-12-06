@@ -196,6 +196,34 @@ function consoleNumber(i){
 }
 consoleNumber(1);
 
+
+
+
+৯ >> Arguements
+
+Arguements নামে একটা function আছে যার ভিতর array like object 
+কিন্তু পুরোপুরি array না
+যার ভিতর array.pop, arry.push কাজ করে না তবে for loop, for of 
+চালানো যায় 
+যেমন : 
+
+function addNumbers(num1,num2 ){
+  let result = 0;
+  for(const num of arguments){
+    result = result + num;
+  }
+  return result;
+}
+
+const numbers = addNumbers(500,200,100)
+
+console.log(numbers);
+
+
+
+
+
+
 *****************MOST IMPORTANT MODULE********************
 
 Module 28
