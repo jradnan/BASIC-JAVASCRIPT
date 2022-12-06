@@ -199,9 +199,9 @@ consoleNumber(1);
 
 
 
-৯ >> Arguements
+৯ >> Arguments
 
-Arguements নামে একটা function আছে যার ভিতর array like object 
+Arguments নামে একটা function আছে যার ভিতর array like object 
 কিন্তু পুরোপুরি array না
 যার ভিতর array.pop, arry.push কাজ করে না তবে for loop, for of 
 চালানো যায় 
