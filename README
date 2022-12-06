@@ -201,7 +201,7 @@ consoleNumber(1);
 
 ৯ >> Arguments
 
-Arguments নামে একটা function আছে যার ভিতর array like object 
+function এর ভিতর Arguments নামে একটা জিনিস আছে যাকে array like object 
 কিন্তু পুরোপুরি array না
 যার ভিতর array.pop, arry.push কাজ করে না তবে for loop, for of 
 চালানো যায় 
