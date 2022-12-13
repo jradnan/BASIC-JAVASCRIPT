@@ -312,3 +312,33 @@ const productPrice = products.map(product => product.price);
 ]
 
 productPrice.forEach(product=>console.log(product))
+
+6>> filter() অ্যারের প্রতিটি উপাদানের মধ্যে যেটা যেটা
+ শর্ত ফুলফিল করবে তাদেরকে নতুন একটা অ্যারে তে রেখে 
+ সেটাকে রিটার্ন করে
+
+ যেমন ঃ
+
+ const numbers = [323, 455, 660, 449, 120, 130 ,140];
+
+ const bigNumbers = numbers.filter(number => number > 500);
+ const smallNumbers = numbers.filter(number => number < 500);
+
+ console.log(smallNumbers);
+
+ ************************find()************************
+ find() অ্যারের এর প্রথম যে উপাদান শর্ত ফুলফিল করবে 
+ শুধু সেই উপাদানকে রিটার্ন করে
+ 
+ যেমন ঃ
+
+ const products = [
+    {name:"ada", price:12, color:'mejenta'},
+    {name:"piaj", price:80, color:'red'},
+    {name:"roshun", price:180, color:'white'},
+    {name:"alu", price:150, color:'mix'},
+];
+
+const find = products.find(product => product.price > 100);
+
+console.log(find); 
