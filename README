@@ -251,10 +251,64 @@ how to search a product in array
 
 ***********ES6***************
 
-1> Spread Operator  হলো কোনো একটা array এর ভিতর এর উপাদান extract করে নিয়ে আসতে পারবে
+1>> Spread Operator  হলো কোনো একটা array এর ভিতর এর উপাদান extract করে নিয়ে আসতে পারবে
 যেমন ঃ 
 const numbers = [220, 330, 323, 455];
 
 console.log(numbers);
 console.log(...numbers);
 
+2>> Destructuring
+Declare variable based on the name of an object property
+
+অবজেক্টে একাধিক প্রপার্টি এর value এক সাথে বের
+করে variable এ রাখাকে destructuring বলে
+যেমন ঃ 
+
+const man = {id : 2, name:'Adnan', height: 5.3, weight:60};
+
+const {id, name , height , weight} = man;
+
+>>> Array destructuring
+
+এটি serial wise variable হিসেবে কাজ করে 
+যেমন ঃ
+
+const [highest, lowest] = [332, 221]
+
+3>> map.Js 
+
+ map পুরো একটা array return করে
+
+ যেমন ঃ
+
+  const products = [
+    {name:"ada", price:12, color:'mejenta'},
+    {name:"piaj", price:80, color:'red'},
+    {name:"roshun", price:180, color:'white'},
+    {name:"alu", price:150, color:'mix'},
+]
+
+
+const productPrice = products.map(product => product.price);
+
+
+
+
+4>> forEach()
+
+  forEach() একটি অ্যারের প্রতিটি 
+  উপাদানের জন্য একটি ফাংশন কল
+  করে কিন্তু কোন কিছু রিটার্ন করেনা
+
+  যেমন ঃ
+
+
+  const products = [
+    {name:"ada", price:12, color:'mejenta'},
+    {name:"piaj", price:80, color:'red'},
+    {name:"roshun", price:180, color:'white'},
+    {name:"alu", price:150, color:'mix'},
+]
+
+productPrice.forEach(product=>console.log(product))
