@@ -342,3 +342,74 @@ productPrice.forEach(product=>console.log(product))
 const find = products.find(product => product.price > 100);
 
 console.log(find); 
+
+7>> Primitive data types প্রকারগুলি সহজ এবং অপরিবর্তনীয়, 
+যার অর্থ তাদের পরিবর্তন বা পরিবর্তন করা যায় না।
+
+
+let a = 2;
+let b = a;
+console.log()
+
+Non-primitive data types প্রকারগুলি আরও জটিল এবং সংশোধন করা
+যেতে পারে।
+উদাহরণস্বরূপ, আপনি একটি বস্তুর একটি সম্পত্তির মান পরিবর্তন করতে 
+পারেন বা একটি অ্যারেতে একটি নতুন উপাদান যোগ করতে পারেন।
+
+
+
+
+8>> Undefined
+
+**Null or undefined 
+variable declare করা হলেও কোন মান সেট করা হয় নাই
+
+**function কিছু রিটার্ন করে নাই
+
+**রিটার্ন লেখা, কিন্তু কিছু রিটার্ন করা হয় নাই
+
+**parameter পাস করা হয় নাই
+
+**object এর ভিতর 
+property নাই সেটা access করতে চাইলে undefined দেখাবে
+
+**range এর বাইরে array 
+এর কোন উপাদানকে access করতে চাইলে undefined দেখাবে
+
+**delete করা array এর উপাদান access করা
+
+**কোন variable এর মান সরাসরি undefined সেট করা
+
+9>>Local scop and Global Scope
+******Local Scope*******
+যখন একটি function এর ভিতরে একটি variable তৈরী হয়
+তখন সেটাকে local scop বলে। এটি করার
+মাধ্যমে variable গুলোকে শুধু সেই function
+এর মধ্যে access করা যায়।
+*******Globa Scope******
+Global variable গুলোকে 
+javascript প্রোগ্রামের যেকোনো যায়গা থেকে access করা যায়।
+*******Block Scope******
+if,switch, conditions
+বা for এবং while loops এর ভিতরে area টাকে block scope বলে
+
+*********Closure**********
+একটা function থেকে যদি আরেকটা function return
+করে তাহলে তারা নিজস্ব একটা closure অথবা 
+encapsulation তৈরি করে
+
+*****false****
+1/ falsy 
+2/ false 
+3/ 0
+4/ empty string
+5/undefined 
+6/null
+7/NaN
+*****truth*****
+1/true
+2/any number (positve or negative) 
+3/ any string including single whitespace, "0", " false"
+4/empty array 
+5/ empty object 
+Anything else that is not falsy will be truthy

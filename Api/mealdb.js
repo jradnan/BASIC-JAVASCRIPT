@@ -58,7 +58,7 @@ const searchMeal =meals=>{
             div.innerHTML = `
             <div class="card h-100">
                     <img class="card-img-top" src="${meal.strMealThumb}" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="card-body bg-dark text-white rounded-3 ">
                         <h5 class="card-title">${meal.strMeal}</h5>
                         <p class="card-text">${slice}</p>
                     </div>
