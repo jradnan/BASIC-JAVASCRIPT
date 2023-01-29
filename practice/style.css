@@ -1,0 +1,39 @@
+.header{
+    background-color: #1abc9c;
+    margin-top: -10px;
+    padding: 3px 0px;
+}
+nav {
+    text-align: right;
+}
+
+.menu {
+    margin-top: -40px;
+   
+}
+
+.menu li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    font-size: 20px;
+    border-spacing: 2px;
+    color: aliceblue;
+    cursor: pointer;
+
+
+}
+
+
+
+.slider{
+ background-image: url("img/photo-1524591431555-cc7876d14adf.avif");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+}
+.transparent{
+    margin-top: 220px;
+    background: transparent;
+}

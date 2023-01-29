@@ -20,3 +20,4 @@ const find =products.find(product => product.price > 100);
 
 
 console.log(find);
+// hfahfjadvaskjewadssdgsd
