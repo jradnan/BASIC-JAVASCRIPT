@@ -410,6 +410,22 @@ if,switch, conditions
 করে তাহলে তারা নিজস্ব একটা closure অথবা 
 encapsulation তৈরি করে
 
+
+10) function এর parameter এ চাইলে default parameter দেয়া যায় তাহলে যে কোন একটার parameter এর value না দিলেও undefined দেখাবে না অর্থাৎ যেই parameter এর default value দিয়ে দেব সেটার মান না দিলেও undefined দেখাবে না।  
+
+যেমন : 
+
+function add(first , second = 0){
+    const total = first + second;
+    return total;
+
+}
+
+
+const result = add(10)
+console.log(result);
+
+
 *****false****
 1/ falsy 
 2/ false 
