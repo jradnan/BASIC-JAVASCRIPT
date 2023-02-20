@@ -411,7 +411,10 @@ if,switch, conditions
 encapsulation তৈরি করে
 
 
-10) function এর parameter এ চাইলে default parameter দেয়া যায় তাহলে যে কোন একটার parameter এর value না দিলেও undefined দেখাবে না অর্থাৎ যেই parameter এর default value দিয়ে দেব সেটার মান না দিলেও undefined দেখাবে না।  
+10>> function এর parameter এ চাইলে default parameter দেয়া যায় তাহলে 
+যে কোন একটার parameter এর value না দিলেও undefined দেখাবে না
+অর্থাৎ যেই parameter এর default value দিয়ে দেব সেটার মান
+না দিলেও undefined দেখাবে না।  
 
 যেমন : 
 
@@ -424,6 +427,22 @@ function add(first , second = 0){
 
 const result = add(10)
 console.log(result);
+
+11>> Parameter হচ্ছে function এর variables
+Argument মানে যে মান গুলো তুমি পাঠাবা |
+
+যেমন :
+
+এখানে a, b, হচ্ছে Parameter 
+
+function add(a,b){
+    return a+b;
+}
+
+const reult = add(2,2)
+
+এখানে যে মান 2,2 এটা হচ্ছে Argument
+
 
 
 *****false****
