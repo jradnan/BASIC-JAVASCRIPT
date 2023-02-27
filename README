@@ -445,6 +445,30 @@ const reult = add(2,2)
 
 
 
+
+<<<<<<<<<<<<<<<<<<< Advance Object >>>>>>>>>>>>>>>>>>>>>>>
+
+
+কোন একটা object এর ভেতর থেকে function থাকলে সেটাকে methode বলে
+এবং object এর ভেতর থেকে যেই function declare করা হয়েছে ওই function এর ভেতর থেকে
+object এর কোন property কে পেতে হলে this ব্যবহার করতে হয়
+
+যেমন :
+
+const student = {
+    name: "Adnan",
+    money: 5000,
+    study: "Web Programming",
+    subjects: ['wordpress', 'javascript', 'React', 'mongo', 'node', 'front end', 'full stack'],
+    exam: function () {
+        return this.name + 'participating in an exam'
+    }
+}
+
+
+
+
+
 *****false****
 1/ falsy 
 2/ false 
