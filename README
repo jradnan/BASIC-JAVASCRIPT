@@ -444,7 +444,15 @@ const reult = add(2,2)
 এখানে যে মান 2,2 এটা হচ্ছে Argument
 
 
+11>> এপিয়াই (API) সার্ভারের অংশ। ফেচ (fetch) এপিআই (API) এর মাধ্যমে কোনো 
+এপিআই (API) এর কাছে রিকোয়েস্ট পাঠালে এপিআই (API) সেটা রিসিভ করে তার সার্ভারের কাছে পাঠায়। সার্ভার প্রসেস করে একটা রেসপন্স তৈরি করে এপিয়াই (API) এর কাছে দেয়। এপিআই (API) সেটা ক্লায়েন্টের কাছে পাঠায়।
 
+যেমন :
+
+const url = `https://jsonplaceholder.typicode.com/posts`
+fetch(url).then(res=>res.json()).then(data=> showPosts(data));
+
+      API means = APLICATION PROGRAMMING INTERFACE
 
 <<<<<<<<<<<<<<<<<<< Advance Object >>>>>>>>>>>>>>>>>>>>>>>
 
