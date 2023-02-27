@@ -457,7 +457,7 @@ fetch(url).then(res=>res.json()).then(data=> showPosts(data));
 <<<<<<<<<<<<<<<<<<< Advance Object >>>>>>>>>>>>>>>>>>>>>>>
 
 
-কোন একটা object এর ভেতর থেকে function থাকলে সেটাকে methode বলে
+1>> কোন একটা object এর ভেতর থেকে function থাকলে সেটাকে methode বলে
 এবং object এর ভেতর থেকে যেই function declare করা হয়েছে ওই function এর ভেতর থেকে
 object এর কোন property কে পেতে হলে this ব্যবহার করতে হয়
 
@@ -473,8 +473,21 @@ const student = {
     }
 }
 
+2>> কোন একটা object এর ভেতর property কে keys বলে
+এবং property er মান কে values বলে। 
+আমরা চাইলে object এর ভেতর শুধু keys গুলো দেখাতে পারি
+আবার শুধু মান গুলো কে দেখাতে পারি 
 
 
+যেমন :
+
+const bottle = {color:"yellow", price : 50, isCleaned:true, capacity:1};
+const keys = Object.keys(bottle);
+const values = Object.values(bottle)
+console.log(keys);
+console.log(values);
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 *****false****
