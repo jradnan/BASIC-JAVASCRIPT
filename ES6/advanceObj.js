@@ -12,7 +12,12 @@ const student = {
 const bottle = { color: "yellow", price: 50, isCleaned: true, capacity: 1 };
 const keys = Object.keys(bottle);
 const values = Object.values(bottle)
-console.log(keys);
-console.log(values);
+const entries = Object.entries(bottle);
+// console.log(keys);
+// console.log(values);
 
-const newFriend =['abid', 'sabid']
+for(const element of entries){
+    console.log(element);
+
+}
+

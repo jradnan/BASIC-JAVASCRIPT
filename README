@@ -490,6 +490,56 @@ console.log(values);
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
+
+
+<<<<<<<<<<<<< What Really Is Javascript >>>>>>>>>>>>>>>>>
+
+1. JavaScript is a highly abstracted programming language
+
+High abstraction
+
+* We don't have to handle resource Management and memory allocation
+* We don't have to handle garbage collection
+* Reduces details so that developers can focus on logic better
+* Improve understandability as well as maintainability of the code
+
+
+2. JavaScript is a JIT compiled language
+
+<<<< Just in time JIT >>>>
+* JavaScript is not a purely interpreted language
+* Modern JavaScript is JIT compiled
+* Just in time compiler converts the entire code
+  into machine code and executes them immediately
+
+
+3. JavaScript is a multi-paradigm programming language
+
+<<<< Multi-paradigm >>>>
+* Code structure that will determine the style or way of programming
+1 >> Procedural programming
+    ***Involves writing instructions
+    ***Tells the computer when it should do step by step
+    
+2 >> Object oriented programming
+    ***Modeling a system as a collection of objects
+    ***The object contains Both functions (or methods) and data
+
+3 >> Functional programming
+    ***An approach to software development that uses pure functions
+    ***To create maintainable software
+
+
+4. JavaScript is a prototype-based programming language
+
+5. JavaScript is dynamically typed
+    
+
+
+
+
+
+
 *****false****
 1/ falsy 
 2/ false 
