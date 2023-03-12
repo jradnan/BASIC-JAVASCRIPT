@@ -654,3 +654,22 @@ function sumFunc(params) {
 
 
 
+<<<<<<<<<<<<<<<<<<<<<<<< How Browser Works Overall >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+ব্রাউজার হলো এক ধরনের সফটওয়্যার যা পিসিতে ইন্সটল করে ব্যবহার করতে হয়
+
+কোন একটা ব্রাউজারে স্ট্যাটিক ওয়েবসাইট দেখানোর steps :
+
+Browser আমাদের HTML  File টাকে একটা tree তে পরিবর্তন করে যা Dom tree হিসেবে পরিচিত
+
+html ফাইল এর উপরে style দেওয়ার জন্য browser একটা style  tree তৈরি করে
+
+dom tree এবং style tree মিলে তৈরি হয় render tree যা ওয়েবসাইটের layout কে নির্দেশ করে
+
+dom tree/render tree তে কোন কিছু আপডেট হলে সে অনুযায়ী re-rendering হয়
+
+Render tree পাওয়ার পর সেটার উপর paint করা হয়
+
+Re-render হলে re-paint হয়
+
+সবশেষে  (User interface) ইউজার ইন্টারফেসে output টা Display হয়
