@@ -520,6 +520,12 @@ console.log(values);
 5/ empty object 
 Anything else that is not falsy will be truthy
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1/ This কি ওয়ার্ড এর ডেফিনেশন কি?
+2/ কেন object কে লুপ করা যায় না?
+3/ কেন জাভাস্ক্রিপ্ট কে প্রটোটাইপ বেস প্রোগ্রামিং বলা হয়?
+4/ function invoke এবং Call() এরমধ্যে কি ডিফারেন্স রয়েছে?
 
 
 
