@@ -18,4 +18,16 @@ const total =  numbers.reduce(myFunc, 122)
 
 const d = new Date("2023-03-25");
 
-console.log(d);
+// console.log(d);
+
+
+const obj = {
+    person : "girl",
+    name : "afsana sultana pisty",
+    age : "22",
+
+}
+
+const array = [1,2,3,4,5,6];
+
+console.dir(array);
